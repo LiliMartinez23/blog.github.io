@@ -13,4 +13,9 @@ body {
 
 .btn {
     margin-bottom: 20px;
+    color: white !important;
+}
+
+.h1 {
+    color: gray !important;
 }
