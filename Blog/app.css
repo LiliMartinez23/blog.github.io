@@ -1,0 +1,180 @@
+body {
+    background-color: white !important;
+}
+
+header {
+    background-color: #ACADBC;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+
+header ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+header li {
+    display: inline;
+    margin: 5rem;
+}
+
+.btn {
+    display: inline;
+    margin: 1rem;
+}
+
+#button {
+    margin-left: auto;
+}
+
+img {
+    height: 53vh;
+    width: 90vw;
+}
+
+.image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.img-work {
+    height: 62vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.text p {
+    color: black;
+    font-size: 15px;
+    text-align: center;
+}
+
+footer {
+    background-color: black;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+footer ul {
+    list-style: none;
+    padding: 2px 2px;
+}
+
+footer li {
+    margin: 1.5rem 1rem;
+}
+
+footer a {
+    color: white !important;
+}
+
+.social-media {
+    text-align: center;
+    padding: 20px 20px;
+    margin: 40px;
+}
+
+.create p {
+    text-align: center;
+    margin: 40px;
+    padding: 20px 20px;
+}
+
+.fab {
+    margin: 20px;
+    font-size: 25px;
+}
+
+.card {
+    align-items: center;
+    margin: 20px;
+}
+
+.card-img-top {
+    width: fit-content;
+    object-fit: cover;
+}
+
+.profile img {
+    height: 220px;
+    width: 220px;
+    margin-top: -75px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.profile-text p {
+    margin-bottom: 0;
+}
+
+a {
+    text-decoration: none !important;
+    color: black !important;
+}
+
+li {
+    font-family: 'Raleway', sans-serif;
+}
+
+h1, h2, h3 {
+    font-family: 'Raleway', sans-serif;
+}
+
+h1 {
+    margin: 1rem;
+}
+
+h2 {
+    text-align: center;
+}
+
+h3 {
+    text-align: center;
+    color: black !important;
+}
+
+/* Media Queries */
+@media (max-width: 200px) {
+    .social-media {
+      flex-direction: column;
+    }
+    
+    .social-media a {
+      margin-right: 0;
+      margin-bottom: 5px; /* Adjust spacing between links as needed */
+    }
+  }
+
+@media (max-width: 1000px) {
+    .profile img {
+        height: 340px;
+        width: 340px;
+        margin-top: -200px;
+    }
+}
+
+@media (max-width: 600px) {
+    .profile img {
+        height: 240px;
+        width: 240px;
+        margin-top: -100px;
+    }
+} 
+
