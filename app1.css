@@ -13,10 +13,13 @@ body {
 
 .btn {
     margin-bottom: 20px;
-    color: white !important;
-    text-decoration: none !important;
 }
 
 .h1 {
     color: gray !important;
+}
+
+a {
+    text-decoration: none !important;
+    color: white !important;
 }
