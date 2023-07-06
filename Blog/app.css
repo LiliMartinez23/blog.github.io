@@ -106,6 +106,11 @@ footer a {
     margin: 20px;
 }
 
+.card:hover {
+    cursor: pointer;
+    transition: box-shadow 0.3s ease;
+}
+
 .card-img-top {
     width: fit-content;
     object-fit: cover;
