@@ -105,7 +105,7 @@ footer a {
     align-items: center;
     margin: 20px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-    transition: box-shadow 0.3s ease;
+    transition: box-shadow 0.1s ease;
 }
 
 .card:hover {
