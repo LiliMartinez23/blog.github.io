@@ -185,3 +185,10 @@ h3 {
     }
 } 
 
+@media (max-width: 200px) {
+    .profile img {
+        height: 140px;
+        width: 140px;
+        margin-top: -80px;
+    }
+} 
