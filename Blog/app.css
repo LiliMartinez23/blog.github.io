@@ -146,6 +146,7 @@ h1, h2, h3 {
 
 h1 {
     margin: 1rem;
+    font-weight: 600;
 }
 
 h2 {
