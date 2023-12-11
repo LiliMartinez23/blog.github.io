@@ -5,35 +5,13 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="../app.css">
-    <link rel="stylesheet" href="../bootstrap-5.3.0-dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="app.css">
+    <link rel="stylesheet" href="bootstrap-5.3.0-dist/css/bootstrap.min.css">
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100&family=Open+Sans:wght@300&family=Playfair+Display&family=Poppins:wght@100&family=Raleway&family=Roboto:wght@100;400&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
   </head>
 <body>
-    <!-- Beginning of header -->
-    <header>
-    <a href="../index.html"><h1>Blog</h1></a>
-    <a class="btn btn-link" data-bs-toggle="offcanvas" href="#offcanvasExample" role="button" aria-controls="offcanvasExample">Menu</a>
-    <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasExample" aria-labelledby="offcanvasExampleLabel">
-        <div class="offcanvas-header">
-          <h5 class="offcanvas-title" id="offcanvasExampleLabel">Blog</h5>
-          <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
-        </div>
-        <div class="offcanvas-body">
-          <div class="dropdown mt-3">
-            <ul>
-              <li><a class="dropdown-item" href="../index.html">Home</a></li>
-              <li><a class="dropdown-item" href="post.html">Blog Post</a></li>
-              <li><a class="dropdown-item" href="contact.html">Contact Info</a></li>
-            </ul>
-          </div>
-        </div>
-      </div>
-    </header>
-    <br>
-    <!-- Ending of Modal -->
-    <!-- Ending of header -->
+    <header id="header"></header><br>
 
     <!-- Beginning of body -->
     <h3>Blog Post</h3>
@@ -44,11 +22,11 @@
         <!-- Card 1 -->
         <div class="col-sm-6 col-md-6 col-lg-4">
           <div class="card">
-            <img src="../img/Work.jpg" class="card-img-top" alt="...">
+            <img src="img/Work.jpg" class="card-img-top" alt="...">
             <div class="card-body">
               <h5 class="card-title">Work</h5>
               <p class="card-text">Building, enhancing, and developing my skills.</p>
-              <a href="work.html" class="btn btn-link">Read</a>
+              <a href="pages/work.html" class="btn btn-link">Read</a>
             </div>
           </div>
         </div>
@@ -56,11 +34,11 @@
         <!-- Card 2 -->
         <div class="col-sm-6 col-md-6 col-lg-4">
           <div class="card">
-            <img src="../img/School.jpg" class="card-img-top" alt="...">
+            <img src="img/School.jpg" class="card-img-top" alt="...">
             <div class="card-body">
               <h5 class="card-title">School</h5>
               <p class="card-text">Bachelors of Science Major: Computer Science Minor: Business Admin</p>
-              <a href="school.html" class="btn btn-link">Read</a>
+              <a href="pages/school.html" class="btn btn-link">Read</a>
             </div>
           </div>
         </div>
@@ -68,11 +46,11 @@
         <!-- Card 3 -->
         <div class="col-sm-6 col-md-6 col-lg-4">
           <div class="card">
-            <img src="../img/Events.jpg" class="card-img-top" alt="...">
+            <img src="img/Events.jpg" class="card-img-top" alt="...">
             <div class="card-body">
               <h5 class="card-title">Events</h5>
               <p class="card-text">Workshops, Hackathons, Projects</p>
-              <a href="events.html" class="btn btn-link">Read</a>
+              <a href="pages/events.html" class="btn btn-link">Read</a>
             </div>
           </div>
         </div>
@@ -80,11 +58,11 @@
         <!-- Card 4 -->
         <div class="col-sm-6 col-md-6 col-lg-4">
           <div class="card">
-            <img src="../img/Travel.jpg" class="card-img-top" alt="...">
+            <img src="img/Travel.jpg" class="card-img-top" alt="...">
             <div class="card-body">
               <h5 class="card-title">Travel</h5>
               <p class="card-text">Still have lots to do.</p>
-              <a href="travel.html" class="btn btn-link">Read</a>
+              <a href="pages/travel.html" class="btn btn-link">Read</a>
             </div>
           </div>
         </div>
@@ -92,11 +70,11 @@
         <!-- Card 5 -->
         <div class="col-sm-6 col-md-6 col-lg-4">
           <div class="card">
-            <img src="../img/Chess.jpg" class="card-img-top" alt="...">
+            <img src="img/Chess.jpg" class="card-img-top" alt="...">
             <div class="card-body">
               <h5 class="card-title">Hobbies</h5>
               <p class="card-text">Jiu Jitsu, Chess, Drawing, etc.</p>
-              <a href="hobbies.html" class="btn btn-link">Read</a>
+              <a href="pages/hobbies.html" class="btn btn-link">Read</a>
             </div>
           </div>
         </div>
@@ -104,21 +82,9 @@
     </div>
         <!-- Ending of body -->
 
-    <!-- Beginning of footer -->
-    <br>
-    <footer>
-      <div class="social-media">
-         <a href="#"><i class="fab fa-facebook"></i></a>
-         <a href="#"><i class="fab fa-instagram"></i></a>
-         <a href="#"><i class="fab fa-youtube"></i></a>
-      </div>
-      <div class="create">
-        <p>Created by Liliana Martinez</p>
-      </div>
-  </footer>
-    <!-- Ending of footer -->
+    <footer id="footer"></footer>
 
-    <script src="../bootstrap-5.3.0-dist/js/bootstrap.min.js"></script>
-    <script src="../app.js"></script>
+    <script src="bootstrap-5.3.0-dist/js/bootstrap.min.js"></script>
+    <script src="app.js"></script>
 </body>
 </html>
