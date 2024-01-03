@@ -6,7 +6,29 @@ function createHeader() {
 }
 
 function createFooter() {
-    const footer = ``;
+    const footer = `<div class="container">
+            <div class="row">
+                <div class="sm-links">
+                    <div class="sm-link">
+                        <button><a href=""></a></button>
+                    </div>
+                    <div class="sm-link">
+                        <button><a href=""></a></button>
+                    </div>
+                    <div class="sm-link">
+                        <button><a href=""></a></button>
+                    </div>
+                    <div class="sm-link">
+                        <button><a href=""></a></button>
+                    </div>
+                    <div class="sm-link">
+                        <button><a href=""></a></button>
+                    </div>
+                </div>
+                <div class="contact">
+                    <a class="contact-link" href="contact.html">Contact</a>
+                </div>
+            </div>`;
     return footer;
 }
 
